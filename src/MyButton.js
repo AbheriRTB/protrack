@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 var counter = 0;
-let defaultText="Click Me";
+let defaultText="Click This";
 
 class MyButton extends Component {
     
