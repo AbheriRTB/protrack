@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
 var counter = 0;
+let defaultText="Click Me";
+
 class MyButton extends Component {
+    
     constructor() {
         super();
         this.state = {
-            buttonText: "Click Me"
+            buttonText: defaultText
         };
         this.buttonClick = this.buttonClick.bind(this);
         this.resetMyButton = this.resetMyButton.bind(this);
@@ -22,7 +25,7 @@ class MyButton extends Component {
     resetMyButton() {
         clearInterval(this.intervalID);
         this.setState({
-            buttonText: "Click Me"
+            buttonText: defaultText
         });
         
     };
