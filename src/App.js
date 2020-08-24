@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock.js';
 import MyButton from './MyButton';
+import ColoredBlock from './ColoredBlock';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         </a>
         <Clock/>
         <MyButton/>
+        <ColoredBlock/>
         </header>
       </div>
     );
